@@ -1,0 +1,8 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"pages/page_with_flag.html\" type=\"html\" isDashboard=\"False\" packageName=\"end-user-xp\">\n    <label>Job Manager</label>\n</view>",
+"eai:type": "views",
+"name": "job_manager",
+"owner": "nobody",
+"packageName": "end-user-xp",
+"sharing": "global"
+}

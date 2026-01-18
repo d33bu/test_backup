@@ -1,0 +1,10 @@
+{
+"alert.track": "0",
+"alert_type": "always",
+"dispatch.earliest_time": "-24h",
+"is_scheduled": "0",
+"name": "Splunk errors last 24 hours",
+"owner": "nobody",
+"search": "index=_internal \" error \" NOT debug source=*splunkd.log*",
+"sharing": "app"
+}

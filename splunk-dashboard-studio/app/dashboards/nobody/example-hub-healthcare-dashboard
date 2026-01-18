@@ -1,0 +1,7 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"splunk-dashboard-studio:/templates/example-hub.html\" type=\"html\">\n    <label>Healthcare Dashboard</label>\n</view>\n\n\n",
+"eai:type": "views",
+"name": "example-hub-healthcare-dashboard",
+"owner": "nobody",
+"sharing": "app"
+}

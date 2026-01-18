@@ -1,0 +1,7 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"splunk-dashboard-studio:/templates/example-hub.html\" type=\"html\">\n    <label>Europe Telecom Network Hub</label>\n</view>",
+"eai:type": "views",
+"name": "example-hub-europe-telecom-network-hub-dashboard",
+"owner": "nobody",
+"sharing": "app"
+}

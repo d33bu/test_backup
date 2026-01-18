@@ -1,0 +1,7 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"pages/individual_page.html\" type=\"html\" isDashboard=\"False\">\n    <label>Trigger Action View</label>\n</view>",
+"eai:type": "views",
+"name": "trigger_action_view",
+"owner": "nobody",
+"sharing": "app"
+}

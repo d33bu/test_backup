@@ -1,0 +1,11 @@
+{
+"alert.track": "0",
+"alert_type": "always",
+"dispatch.earliest_time": "-3h",
+"displayview": "report_builder_display",
+"is_scheduled": "0",
+"name": "Messages by minute last 3 hours",
+"owner": "nobody",
+"search": "index=_internal source=\"*metrics.log\" eps \"group=per_source_thruput\" NOT filetracker | eval events=eps*kb/kbps | timechart fixedrange=t span=1m limit=5 sum(events) by series",
+"sharing": "app"
+}

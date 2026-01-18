@@ -1,0 +1,7 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"splunk-dashboard-studio:/templates/example-hub.html\" type=\"html\">\n    <label>Set a Token Default</label>\n</view>",
+"eai:type": "views",
+"name": "example-hub-set-token-drilldown-default",
+"owner": "nobody",
+"sharing": "app"
+}

@@ -1,0 +1,9 @@
+{
+"alias.0.mid": "msgid",
+"name": "msgid",
+"origName": "sendmail : FIELDALIAS-msgid",
+"overwrite": "1",
+"owner": "nobody",
+"sharing": "global",
+"stanza": "sendmail"
+}

@@ -1,0 +1,9 @@
+{
+"name": "qid",
+"origName": "sendmail : EXTRACT-qid",
+"owner": "nobody",
+"sharing": "global",
+"stanza": "sendmail",
+"type": "EXTRACT",
+"value": "sendmail[^\\]]*\\]:\\s+(?<qid>[^:]*):"
+}

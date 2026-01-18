@@ -1,0 +1,7 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"splunk-dashboard-studio:/templates/example-hub.html\" type=\"html\">\n    <label>Emergency Department Care</label>\n</view>\n\n\n",
+"eai:type": "views",
+"name": "example-hub-emergency-department-care-dashboard",
+"owner": "nobody",
+"sharing": "app"
+}

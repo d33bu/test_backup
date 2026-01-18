@@ -1,0 +1,11 @@
+{
+"disabled": "0",
+"name": "splunk-dashboard-snapshots",
+"owner": "nobody",
+"profilingEnabled": "false",
+"profilingThresholdMs": "1000",
+"replicate": "false",
+"replication_dump_maximum_file_size": "10240",
+"replication_dump_strategy": "auto",
+"sharing": "app"
+}

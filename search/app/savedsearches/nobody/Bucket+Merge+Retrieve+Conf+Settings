@@ -1,0 +1,9 @@
+{
+"alert.track": "0",
+"alert_type": "always",
+"is_scheduled": "0",
+"name": "Bucket Merge Retrieve Conf Settings",
+"owner": "nobody",
+"search": "| rest services/data/indexes datatype=all \n| search disabled!=1 AND bucketMerging=1 \n| dedup title \n| fields title bucketMerging bucketMerge.minMergeSizeMB bucketMerge.maxMergeSizeMB bucketMerge.maxMergeTimeSpanSecs bucketMerge.minMergeCount bucketMerge.maxMergeCount",
+"sharing": "app"
+}

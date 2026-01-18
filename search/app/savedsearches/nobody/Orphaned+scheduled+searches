@@ -1,0 +1,9 @@
+{
+"alert.track": "0",
+"alert_type": "always",
+"is_scheduled": "0",
+"name": "Orphaned scheduled searches",
+"owner": "nobody",
+"search": "| rest timeout=600 splunk_server=local /servicesNS/-/-/saved/searches add_orphan_field=yes count=0 \n| search orphan=1 disabled=0 is_scheduled=1 \n| eval status = if(disabled = 0, \"enabled\", \"disabled\") \n| fields title eai:acl.owner eai:acl.app eai:acl.sharing orphan status is_scheduled cron_schedule next_scheduled_time next_scheduled_time actions \n| rename title AS \"search name\" eai:acl.owner AS owner eai:acl.app AS app eai:acl.sharing AS sharing",
+"sharing": "app"
+}

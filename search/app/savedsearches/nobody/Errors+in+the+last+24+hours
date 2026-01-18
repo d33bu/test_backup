@@ -1,0 +1,10 @@
+{
+"alert.track": "0",
+"alert_type": "always",
+"dispatch.earliest_time": "-1d",
+"is_scheduled": "0",
+"name": "Errors in the last 24 hours",
+"owner": "nobody",
+"search": "error OR failed OR severe OR ( sourcetype=access_* ( 404 OR 500 OR 503 ) )",
+"sharing": "app"
+}

@@ -1,0 +1,7 @@
+{
+"eai:data": "<?xml version=\"1.0\"?>\n<view template=\"splunk-dashboard-studio:/templates/example-hub.html\" type=\"html\">\n    <label>Text Input</label>\n</view>",
+"eai:type": "views",
+"name": "example-hub-text-input",
+"owner": "nobody",
+"sharing": "app"
+}
