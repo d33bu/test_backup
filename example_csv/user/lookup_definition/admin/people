@@ -1,0 +1,9 @@
+{
+"batch_index_query": "0",
+"case_sensitive_match": "1",
+"fields_list": "Index,User Id,First Name,Last Name,Sex,Email,Phone,Date of birth,Job Title",
+"filename": "people-2000000.csv",
+"name": "people",
+"owner": "admin",
+"sharing": "user"
+}
